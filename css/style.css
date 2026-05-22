@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: deartone;
-    src: url(fonte/Deartone.ttf);
+    src: url(fonte/JAi_____.TTF);
 }
 body{
     color: var(--cor0);
-    font-family: deartone;
+    font-family: JAI;
 }
