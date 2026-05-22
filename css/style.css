@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "cores.css";
+
+@font-face {
+    font-family: deartone;
+    src: url(fonte/Deartone.ttf);
+}
+body{
+    color: var(--cor0);
+    font-family: deartone;
+}
