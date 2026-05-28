@@ -7,7 +7,7 @@
     src: url(fonte/jai.TTF);
 }
 body{
-    color: var(--Pl atina);
+    color: var(--Platina);
     font-family: JAI;
     background-color: var(--CorPreta);
 }
