@@ -11,3 +11,42 @@ body{
     font-family: JAI;
     background-color: var(--CorPreta);
 }
+.tituloPrincipal{
+    text-align: center;
+}
+.img-banner{
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+header{
+    background-color: grey;
+
+}
+#turmas section{
+    display: inline-block;
+    vertical-align: top;
+    background-color: aliceblue;
+}
+.menu ul{
+    text-align: center;
+    margin-bottom: 50;
+}
+
+
+
+.listaAlunos li{
+    padding: 5px;
+}
+#turmas footer{
+    background-color: brown;
+}
+#turmas footer h3{
+    font-size: smaller;
+}
+#turmas .sala.turma_A{
+    background-color:bisque;
+}
+#turmas .sala.turma_B{
+    background-color:rgb(56, 83, 107);
+}
