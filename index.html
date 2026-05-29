@@ -9,7 +9,7 @@
     <meta name="author" content="Felipe Reis Dziubate">
     <title>Gestão Turmas</title>
 
-    <link rel="icon" type="image/x-icon" href="-">
+    <link rel="icon" type="image/x-icon" href="https://proeducador.sp.senai.br/site/icons/logo-small.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,9 +17,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">CONTATO</a></li>
-                <li><a href="#">NOTICIAS</a></li>
+                <li><a href="#lellisA">Lellis Ito - Turma A</a></li>
+                <li><a href="#lellisB">Lellis Ito - Turma B</a></li>
+                <li><a href="#amaralA">Amaral - Turma A</a></li>
+                <li><a href="#amaralB">Amaral - Turma B</a></li>
             </ul>
         </nav>
     </header>
@@ -33,15 +34,15 @@
     <section class="senai mk">
         <h1> TURMAS DE <mark><abbr title="DESENVOLVIMENTO DE SISTEMAS">DS</abbr></mark> NO SENAI MK</h1>
 
-        <section class="sala turma amaral">
+        <section class="sala turma_B amaral">
             <header>
                 <h2>TURMA - AMARAL - 2A</h2>
             </header>
             <div>
-                <ul class="Lista de aluno Amaral" id="alunosamaral2a">
+                <ul class="Lista de aluno Amaral" id="amaralA">
                     <li> Gabriel</li>
-                    <li>...</li>
-                    <li>...</li>
+                    <li> Luis</li>
+                    <li> Lucimara</li>
                 </ul>
             </div>
             <footer>
@@ -55,15 +56,15 @@
 
 
 
-        <section class="sala turma amaral">
+        <section class="sala turma_A amaral">
             <header>
                 <h2>TURMA - AMARAL - 2B</h2>
             </header>
             <div>
-                <ul class="Lista de aluno Amaral" id="alunosamaral2b">
+                <ul class="Lista de aluno Amaral" id="amaralB">
                     <li> Felipe</li>
-                    <li> ... </li>
-                    <li> ...</li>
+                    <li> Julmara </li>
+                    <li> Petra </li>
                 </ul>
             </div>
             <footer>
@@ -78,15 +79,15 @@
 
         </section>
 
-        <section class="sala turma lelis">
+        <section class="sala turma_A lelis">
             <header>
                 <h2>TURMA - LELIS - A</h2>
             </header>
             <div>
-                <ul class="Lista de aluno Amaral" id="alunoslellisitoA">
-                    <li> ...</li>
-                    <li> ... </li>
-                    <li> ...</li>
+                <ul class="Lista de aluno Amaral" id="lellisA">
+                    <li> Augustinho </li>
+                    <li> Fabio </li>
+                    <li> Kléberison </li>
                 </ul>
             </div>
             <footer>
@@ -97,15 +98,15 @@
             </footer>
         </section>
 
-        <section class="sala turma lelis">
+        <section class="sala turma_B lelis">
             <header>
                 <h2>TURMA - LELIS - B</h2>
             </header>
             <div>
-                <ul class="Lista de aluno Amaral" id="alunoslellisitoB">
-                    <li> ...</li>
-                    <li> ... </li>
-                    <li> ...</li>
+                <ul class="Lista de aluno Amaral" id="lellisB">
+                    <li> Joel</li>
+                    <li> Marks </li>
+                    <li> Rodolfo</li>
                 </ul>
             </div>
             <footer>
@@ -115,10 +116,20 @@
                 </div>
             </footer>
         </section>
-
-
     </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <h3> Desenvolvido por: Felipe Reis Dziubate</h3>
+    </footer>
 
+    <script>
+        function contarQuantidadeAlunosTurma(lista, qtd){
+            const listaAlunos = document.getElementById(lista);
+            const quantidade = listaAlunos.querySelectorAll("li").lenght;
+            document.getElementyById(qtd).textContent = quantidade;
+        }
+        contarQuantidadeAlunosTurma('alunosLellis_A', 'qtdAlunosLellis_A')
+    </script>
 </body>
-
 </html>
